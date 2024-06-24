@@ -11,7 +11,8 @@
 	--link: var(--base0D);
 	--hover: var(--base0C);
 	--highlight: var(--base0A);
+	--user: var(--base09); /* this needs custom.css */
 
 	/* Logo */
-	--logo: var(--base0B);
+	--logo: var(--base0E);
 }
