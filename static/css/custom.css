@@ -1,4 +1,5 @@
 /* Override this file to customise the theme's CSS for your site */
+/* for shell theme: user@pc color */
 #user {
   color: var(--user);
 }
@@ -14,6 +15,7 @@
 .js-toggle-wrapper {
     /*display: table;*/
     margin: 1em 0.1em;
+    height: 1em;
 }
 
 .js-toggle {
@@ -46,7 +48,7 @@
     height: 24px;
     padding: 0;
     border-radius: 30px;
-    background-color: hsl(222, 14%, 7%);
+    background-color: var(--base01); /* hsl(222, 14%, 7%);*/
     transition: all 0.2s ease;
   }
   
@@ -96,19 +98,19 @@
     border-radius: 50%;
     background-color: #fafafa;
     box-sizing: border-box;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     transform: translateX(0);
   }
   
   .js-toggle--checked .js-toggle-thumb {
     transform: translateX(26px);
-    border-color: #19ab27;
+    border-color: var(--base01); /*#19ab27;*/
   }
   
   .js-toggle--focus .js-toggle-thumb {
-    box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
+    box-shadow: 0px 0px 2px 3px var(--base01); /*rgb(255, 167, 196);*/
   }
   
   .js-toggle:active .js-toggle-thumb {
-    box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
+    box-shadow: 0px 0px 5px 5px var(--base04); /*rgb(255, 167, 196);*/
   }
